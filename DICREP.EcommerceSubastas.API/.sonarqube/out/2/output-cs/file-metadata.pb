@@ -1,0 +1,17 @@
+¬
+∂C:\Users\sawad\Downloads\repositorios_gitlab_dicrep\api_remates_fase1\DICREP.EcommerceSubastas.Infrastructure\obj\Debug\net8.0\DICREP.EcommerceSubastas.Infrastructure.AssemblyInfo.csutf-8π
+≠C:\Users\sawad\Downloads\repositorios_gitlab_dicrep\api_remates_fase1\DICREP.EcommerceSubastas.Infrastructure\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.csutf-8ï
+ãC:\Users\sawad\Downloads\repositorios_gitlab_dicrep\api_remates_fase1\DICREP.EcommerceSubastas.Infrastructure\Services\JwtTokenGenerator.csutf-8ò
+éC:\Users\sawad\Downloads\repositorios_gitlab_dicrep\api_remates_fase1\DICREP.EcommerceSubastas.Infrastructure\Services\BCryptPasswordHasher.csutf-8ƒ
+∏C:\Users\sawad\Downloads\repositorios_gitlab_dicrep\api_remates_fase1\DICREP.EcommerceSubastas.Infrastructure\obj\Debug\net8.0\DICREP.EcommerceSubastas.Infrastructure.GlobalUsings.g.csutf-8°
+óC:\Users\sawad\Downloads\repositorios_gitlab_dicrep\api_remates_fase1\DICREP.EcommerceSubastas.Infrastructure\Persistence\EcoCircular07082025Context.csutf-8ù
+ìC:\Users\sawad\Downloads\repositorios_gitlab_dicrep\api_remates_fase1\DICREP.EcommerceSubastas.Infrastructure\Data\Repositories\PerfilRepository.csutf-8§
+öC:\Users\sawad\Downloads\repositorios_gitlab_dicrep\api_remates_fase1\DICREP.EcommerceSubastas.Infrastructure\Data\Repositories\FuncionalidadRepository.csutf-8§
+öC:\Users\sawad\Downloads\repositorios_gitlab_dicrep\api_remates_fase1\DICREP.EcommerceSubastas.Infrastructure\Data\Repositories\FichaProductoRepository.csutf-8ï
+ãC:\Users\sawad\Downloads\repositorios_gitlab_dicrep\api_remates_fase1\DICREP.EcommerceSubastas.Infrastructure\Configurations\JwtSettings.csutf-8ü
+ïC:\Users\sawad\Downloads\repositorios_gitlab_dicrep\api_remates_fase1\DICREP.EcommerceSubastas.Infrastructure\Data\Repositories\EmpleadoRepository.csutf-8ó
+çC:\Users\sawad\Downloads\repositorios_gitlab_dicrep\api_remates_fase1\DICREP.EcommerceSubastas.Infrastructure\Authorization\PermisoService.csutf-8õ
+ëC:\Users\sawad\Downloads\repositorios_gitlab_dicrep\api_remates_fase1\DICREP.EcommerceSubastas.Infrastructure\Authorization\PermisoRequirement.csutf-8û
+îC:\Users\sawad\Downloads\repositorios_gitlab_dicrep\api_remates_fase1\DICREP.EcommerceSubastas.Infrastructure\Authorization\PermisoPolicyPRovider.csutf-8ó
+çC:\Users\sawad\Downloads\repositorios_gitlab_dicrep\api_remates_fase1\DICREP.EcommerceSubastas.Infrastructure\Authorization\PermisoHandler.csutf-8ô
+èC:\Users\sawad\Downloads\repositorios_gitlab_dicrep\api_remates_fase1\DICREP.EcommerceSubastas.Infrastructure\Authorization\PermisoAttribute.csutf-8

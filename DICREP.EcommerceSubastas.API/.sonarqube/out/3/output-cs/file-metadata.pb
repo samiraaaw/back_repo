@@ -1,0 +1,15 @@
+ø
+≥C:\Users\sawad\Downloads\repositorios_gitlab_dicrep\api_remates_fase1\DICREP.EcommerceSubastas.API\obj\Debug\net8.0\DICREP.EcommerceSubastas.API.MvcApplicationPartsAssemblyInfo.csutf-8¨
+†C:\Users\sawad\Downloads\repositorios_gitlab_dicrep\api_remates_fase1\DICREP.EcommerceSubastas.API\obj\Debug\net8.0\DICREP.EcommerceSubastas.API.AssemblyInfo.csutf-8Æ
+¢C:\Users\sawad\Downloads\repositorios_gitlab_dicrep\api_remates_fase1\DICREP.EcommerceSubastas.API\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.csutf-8Æ
+¢C:\Users\sawad\Downloads\repositorios_gitlab_dicrep\api_remates_fase1\DICREP.EcommerceSubastas.API\obj\Debug\net8.0\DICREP.EcommerceSubastas.API.GlobalUsings.g.csutf-8Ç
+yC:\Users\sawad\Downloads\repositorios_gitlab_dicrep\api_remates_fase1\DICREP.EcommerceSubastas.API\Security\ApiKeyAuth.csutf-8ò
+éC:\Users\sawad\Downloads\repositorios_gitlab_dicrep\api_remates_fase1\DICREP.EcommerceSubastas.API\SwaggerFilters\DevelopmentDocumentFilter.csutf-8v
+mC:\Users\sawad\Downloads\repositorios_gitlab_dicrep\api_remates_fase1\DICREP.EcommerceSubastas.API\Program.csutf-8ï
+ãC:\Users\sawad\Downloads\repositorios_gitlab_dicrep\api_remates_fase1\DICREP.EcommerceSubastas.API\Middlewares\SecurityHeadersMiddleware.csutf-8ó
+çC:\Users\sawad\Downloads\repositorios_gitlab_dicrep\api_remates_fase1\DICREP.EcommerceSubastas.API\Middlewares\ExceptionHandlingMiddleware.csutf-8ë
+áC:\Users\sawad\Downloads\repositorios_gitlab_dicrep\api_remates_fase1\DICREP.EcommerceSubastas.API\Middlewares\DevelopmentMiddleware.csutf-8å
+ÇC:\Users\sawad\Downloads\repositorios_gitlab_dicrep\api_remates_fase1\DICREP.EcommerceSubastas.API\Middlewares\ApiKeyMiddleware.csutf-8ê
+ÜC:\Users\sawad\Downloads\repositorios_gitlab_dicrep\api_remates_fase1\DICREP.EcommerceSubastas.API\Controllers\ReceiveFichaProducto.csutf-8å
+ÇC:\Users\sawad\Downloads\repositorios_gitlab_dicrep\api_remates_fase1\DICREP.EcommerceSubastas.API\Controllers\AccesoController.csutf-8ì
+âC:\Users\sawad\Downloads\repositorios_gitlab_dicrep\api_remates_fase1\DICREP.EcommerceSubastas.API\Attributes\DevelopmentOnlyAttribute.csutf-8

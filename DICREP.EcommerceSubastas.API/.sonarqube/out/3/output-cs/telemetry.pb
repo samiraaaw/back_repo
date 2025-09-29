@@ -1,0 +1,1 @@
+ùRÜC:\Users\sawad\Downloads\repositorios_gitlab_dicrep\api_remates_fase1\DICREP.EcommerceSubastas.API\DICREP.EcommerceSubastas.API.csproj¢net8.0ÚCSharp12

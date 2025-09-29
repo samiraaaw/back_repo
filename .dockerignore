@@ -1,0 +1,22 @@
+# Ignorar artefactos de compilación en todos los proyectos
+**/bin/
+**/obj/
+
+# Ignorar entornos locales y configuración por proyecto
+**/.vs/
+**/.env
+
+# Archivos temporales y de usuario
+*.suo
+*.user
+*.log
+*.tmp
+*.bak
+*.cache
+*.db
+*.pdb
+*.swp
+
+# Git
+.git/
+.gitignore

@@ -1,0 +1,2403 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador de Microsoft (R) Visual C#",
+        "version": "4.14.0.0",
+        "fileVersion": "4.14.0-3.25218.8 (d7bde97e)",
+        "semanticVersion": "4.14.0",
+        "language": "es-MX"
+      },
+      "results": [
+        {
+          "ruleId": "CS1030",
+          "level": "warning",
+          "message": "#advertencia: 'To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 74,
+                  "startColumn": 10,
+                  "endLine": 74,
+                  "endColumn": 380
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Adjudicatarios\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 12,
+                  "endLine": 10,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 41,
+                  "endLine": 19,
+                  "endColumn": 55
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Auditorias\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 12,
+                  "endLine": 10,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 37,
+                  "endLine": 21,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Bancos\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 12,
+                  "endLine": 10,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 33,
+                  "endLine": 23,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Clprendas\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 12,
+                  "endLine": 10,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 36,
+                  "endLine": 25,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Comunas\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 12,
+                  "endLine": 10,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 34,
+                  "endLine": 27,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"ContactoOrganismos\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 12,
+                  "endLine": 10,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 45,
+                  "endLine": 29,
+                  "endColumn": 63
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"CuentasBancarias\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 12,
+                  "endLine": 10,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 43,
+                  "endLine": 31,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Empleados\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 12,
+                  "endLine": 10,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 36,
+                  "endLine": 33,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"EstadosBienes\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 12,
+                  "endLine": 10,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 40,
+                  "endLine": 35,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"EstadosPrendas\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 12,
+                  "endLine": 10,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 41,
+                  "endLine": 37,
+                  "endColumn": 55
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Feriados\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 12,
+                  "endLine": 10,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 39,
+                  "startColumn": 35,
+                  "endLine": 39,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Fotos\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 12,
+                  "endLine": 10,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 32,
+                  "endLine": 41,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Funcionalidades\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 12,
+                  "endLine": 10,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 42,
+                  "endLine": 43,
+                  "endColumn": 57
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"HistorialPrendas\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 12,
+                  "endLine": 10,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 43,
+                  "endLine": 45,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"InformesTecnicos\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 12,
+                  "endLine": 10,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 47,
+                  "startColumn": 43,
+                  "endLine": 47,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"LogErrores\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 12,
+                  "endLine": 10,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 37,
+                  "endLine": 49,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Organismos\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 12,
+                  "endLine": 10,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 51,
+                  "startColumn": 37,
+                  "endLine": 51,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Parametros\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 12,
+                  "endLine": 10,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 37,
+                  "endLine": 53,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Perfiles\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 12,
+                  "endLine": 10,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 35,
+                  "endLine": 55,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Permisos\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 12,
+                  "endLine": 10,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 57,
+                  "startColumn": 35,
+                  "endLine": 57,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Productos\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 12,
+                  "endLine": 10,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 59,
+                  "startColumn": 36,
+                  "endLine": 59,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Provincias\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 12,
+                  "endLine": 10,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 61,
+                  "startColumn": 37,
+                  "endLine": 61,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Regiones\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 12,
+                  "endLine": 10,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 63,
+                  "startColumn": 35,
+                  "endLine": 63,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"ResultadosAdjudicacions\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 12,
+                  "endLine": 10,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 65,
+                  "startColumn": 50,
+                  "endLine": 65,
+                  "endColumn": 73
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Sucursales\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 12,
+                  "endLine": 10,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 67,
+                  "startColumn": 37,
+                  "endLine": 67,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"TipoAuditorias\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 12,
+                  "endLine": 10,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 69,
+                  "startColumn": 41,
+                  "endLine": 69,
+                  "endColumn": 55
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"TipoCuentas\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 12,
+                  "endLine": 10,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 71,
+                  "startColumn": 38,
+                  "endLine": 71,
+                  "endColumn": 49
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Adjudicatarios\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 12,
+                  "endLine": 14,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 41,
+                  "endLine": 19,
+                  "endColumn": 55
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Auditorias\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 12,
+                  "endLine": 14,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 37,
+                  "endLine": 21,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Bancos\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 12,
+                  "endLine": 14,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 33,
+                  "endLine": 23,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Clprendas\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 12,
+                  "endLine": 14,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 36,
+                  "endLine": 25,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Comunas\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 12,
+                  "endLine": 14,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 34,
+                  "endLine": 27,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"ContactoOrganismos\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 12,
+                  "endLine": 14,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 45,
+                  "endLine": 29,
+                  "endColumn": 63
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"CuentasBancarias\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 12,
+                  "endLine": 14,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 43,
+                  "endLine": 31,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Empleados\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 12,
+                  "endLine": 14,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 36,
+                  "endLine": 33,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"EstadosBienes\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 12,
+                  "endLine": 14,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 40,
+                  "endLine": 35,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"EstadosPrendas\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 12,
+                  "endLine": 14,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 41,
+                  "endLine": 37,
+                  "endColumn": 55
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Feriados\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 12,
+                  "endLine": 14,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 39,
+                  "startColumn": 35,
+                  "endLine": 39,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Fotos\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 12,
+                  "endLine": 14,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 32,
+                  "endLine": 41,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Funcionalidades\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 12,
+                  "endLine": 14,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 42,
+                  "endLine": 43,
+                  "endColumn": 57
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"HistorialPrendas\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 12,
+                  "endLine": 14,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 43,
+                  "endLine": 45,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"InformesTecnicos\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 12,
+                  "endLine": 14,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 47,
+                  "startColumn": 43,
+                  "endLine": 47,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"LogErrores\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 12,
+                  "endLine": 14,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 37,
+                  "endLine": 49,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Organismos\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 12,
+                  "endLine": 14,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 51,
+                  "startColumn": 37,
+                  "endLine": 51,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Parametros\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 12,
+                  "endLine": 14,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 37,
+                  "endLine": 53,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Perfiles\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 12,
+                  "endLine": 14,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 35,
+                  "endLine": 55,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Permisos\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 12,
+                  "endLine": 14,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 57,
+                  "startColumn": 35,
+                  "endLine": 57,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Productos\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 12,
+                  "endLine": 14,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 59,
+                  "startColumn": 36,
+                  "endLine": 59,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Provincias\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 12,
+                  "endLine": 14,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 61,
+                  "startColumn": 37,
+                  "endLine": 61,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Regiones\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 12,
+                  "endLine": 14,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 63,
+                  "startColumn": 35,
+                  "endLine": 63,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"ResultadosAdjudicacions\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 12,
+                  "endLine": 14,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 65,
+                  "startColumn": 50,
+                  "endLine": 65,
+                  "endColumn": 73
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"Sucursales\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 12,
+                  "endLine": 14,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 67,
+                  "startColumn": 37,
+                  "endLine": 67,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"TipoAuditorias\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 12,
+                  "endLine": 14,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 69,
+                  "startColumn": 41,
+                  "endLine": 69,
+                  "endColumn": 55
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "El elemento propiedad \"TipoCuentas\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 12,
+                  "endLine": 14,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 71,
+                  "startColumn": 38,
+                  "endLine": 71,
+                  "endColumn": 49
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Posible tipo de valor devuelto de referencia nulo.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Data/Repositories/EmpleadoRepository.cs",
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 20,
+                  "endLine": 25,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Posible tipo de valor devuelto de referencia nulo.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Data/Repositories/PerfilRepository.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 20,
+                  "endLine": 27,
+                  "endColumn": 57
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Posible tipo de valor devuelto de referencia nulo.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Data/Repositories/EmpleadoRepository.cs",
+                "region": {
+                  "startLine": 30,
+                  "startColumn": 20,
+                  "endLine": 30,
+                  "endColumn": 94
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Posible tipo de valor devuelto de referencia nulo.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Data/Repositories/PerfilRepository.cs",
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 20,
+                  "endLine": 32,
+                  "endColumn": 94
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3993",
+          "level": "warning",
+          "message": "Specify AttributeUsage on 'PermisoAttribute' to improve readability, even though it inherits it from its base type.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Authorization/PermisoAttribute.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 18,
+                  "endLine": 13,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S4487",
+          "level": "warning",
+          "message": "Remove this unread private field '_serviceProvider' or refactor the code to use its value.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Authorization/PermisoPolicyPRovider.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 43,
+                  "endLine": 17,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3251",
+          "level": "warning",
+          "message": "Supply an implementation for this partial method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 314,
+                  "startColumn": 5,
+                  "endLine": 314,
+                  "endColumn": 12
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2068",
+          "level": "warning",
+          "message": "\"password\" detected here, make sure this is not a hard-coded credential.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 75,
+                  "startColumn": 40,
+                  "endLine": 75,
+                  "endColumn": 165
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6444",
+          "level": "warning",
+          "message": "Pass a timeout to limit the execution time.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Data/Repositories/FichaProductoRepository.cs",
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 29,
+                  "endLine": 50,
+                  "endColumn": 92
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SYSLIB1045",
+          "level": "note",
+          "message": "Use 'GeneratedRegexAttribute' para generar la implementación de expresiones regulares en tiempo de compilación.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Data/Repositories/FichaProductoRepository.cs",
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 29,
+                  "endLine": 50,
+                  "endColumn": 92
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3251",
+          "level": "warning",
+          "message": "Supply an implementation for the partial method, otherwise this call will be ignored.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Infrastructure/Persistence/EcoCircular07082025Context.cs",
+                "region": {
+                  "startLine": 311,
+                  "startColumn": 9,
+                  "endLine": 311,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CS1030": {
+          "id": "CS1030",
+          "shortDescription": "Directiva #warning",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS1030)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8603": {
+          "id": "CS8603",
+          "shortDescription": "Posible tipo de valor devuelto de referencia nulo",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8603)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8618": {
+          "id": "CS8618",
+          "shortDescription": "Un campo que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required\" o declararlo como un valor que acepta valores NULL.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8618)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "S2068": {
+          "id": "S2068",
+          "shortDescription": "Hard-coded credentials are security-sensitive",
+          "fullDescription": "Because it is easy to extract strings from an application source code or binary, credentials should not be hard-coded. This is particularly true for applications that are distributed or that are open-source.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2068",
+          "properties": {
+            "category": "Blocker Security Hotspot",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3251": {
+          "id": "S3251",
+          "shortDescription": "Implementations should be provided for \"partial\" methods",
+          "fullDescription": "partial methods allow an increased degree of flexibility in programming a system. Hooks can be added to generated code by invoking methods that define their signature, but might not have an implementation yet. But if the implementation is still missing when the code makes it to production, the compiler silently removes the call. In the best case scenario, such calls simply represent cruft, but in they worst case they are critical, missing functionality, the loss of which will lead to unexpected results at runtime.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3251",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3993": {
+          "id": "S3993",
+          "shortDescription": "Custom attributes should be marked with \"System.AttributeUsageAttribute\"",
+          "fullDescription": "When defining custom attributes, AttributeUsageAttribute must be used to indicate where the attribute can be applied. This will:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3993",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S4487": {
+          "id": "S4487",
+          "shortDescription": "Unread \"private\" fields should be removed",
+          "fullDescription": "Private fields which are written but never read are a case of \"dead store\". Changing the value of such a field is useless and most probably indicates an error in the code.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-4487",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S6444": {
+          "id": "S6444",
+          "shortDescription": "Not specifying a timeout for regular expressions is security-sensitive",
+          "fullDescription": "Not specifying a timeout for regular expressions can lead to a Denial-of-Service attack. Pass a timeout when using System.Text.RegularExpressions to process untrusted input because a malicious user might craft a value for which the evaluation lasts excessively long.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-6444",
+          "properties": {
+            "category": "Major Security Hotspot",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "SYSLIB1045": {
+          "id": "SYSLIB1045",
+          "shortDescription": "Convertir en 'GeneratedRegexAttribute'.",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/syslib-diagnostics/syslib1045",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,24 +1,24 @@
-# .NET
-bin/
-obj/
-*.user
-*.suo
-
-# VS Code
-.vscode/
-.history/
-
-# Node
-node_modules/
-
-# Sistema
-.DS_Store
-Thumbs.db
-
-# Secretos
-*.env
-secrets.json
+# Archivos y carpetas de Visual Studio
 .vs/
+*.suo
+*.user
 
-# Archivos de configuración con secretos
-appsettings.Development.json
+# Carpetas de build generadas por .NET
+**/bin/
+**/obj/
+
+# Archivos de log y temporales
+*.log
+*.tmp
+*.bak
+*.cache
+*.swp
+
+# Archivos de bases de datos locales y depuración
+*.db
+*.pdb
+
+#Ignora archivo .env espec´fico
+**/.env
+
+#**/.env : ignora todos los .env en cualquier carpeta del proyecto. Ocupar solo si se está conciente de todos los .env

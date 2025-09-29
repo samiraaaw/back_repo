@@ -1,0 +1,56 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador de Microsoft (R) Visual C#",
+        "version": "4.14.0.0",
+        "fileVersion": "4.14.0-3.25218.8 (d7bde97e)",
+        "semanticVersion": "4.14.0",
+        "language": "es-MX"
+      },
+      "results": [
+        {
+          "ruleId": "S3363",
+          "level": "warning",
+          "message": "'DateOnly' should not be used as a type for primary keys",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.Domain/Entities/Feriado.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 12,
+                  "endLine": 12,
+                  "endColumn": 20
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "S3363": {
+          "id": "S3363",
+          "shortDescription": "Date and time should not be used as a type for primary keys",
+          "fullDescription": "You should only set a property of a temporal type (like DateTime or DateTimeOffset) as the primary key of a table if the values are guaranteed to be unique.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3363",
+          "properties": {
+            "category": "Minor Bug",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

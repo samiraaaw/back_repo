@@ -1,0 +1,1031 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador de Microsoft (R) Visual C#",
+        "version": "4.14.0.0",
+        "fileVersion": "4.14.0-3.25218.8 (d7bde97e)",
+        "semanticVersion": "4.14.0",
+        "language": "es-MX"
+      },
+      "results": [
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "Posible argumento de referencia nulo para el parámetro \"apiKey\" en \"bool IApiKeyValidation.IsValid(string apiKey)\".",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.API/Middlewares/ApiKeyMiddleware.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 36,
+                  "endLine": 19,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Desreferencia de una referencia posiblemente NULL.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.API/SwaggerFilters/DevelopmentDocumentFilter.cs",
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 37,
+                  "endLine": 22,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "Posible argumento de referencia nulo para el parámetro \"s\" en \"byte[] Encoding.GetBytes(string s)\".",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.API/Program.cs",
+                "region": {
+                  "startLine": 131,
+                  "startColumn": 36,
+                  "endLine": 131,
+                  "endColumn": 79
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.API/Controllers/AccesoController.cs",
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 1,
+                  "endLine": 33,
+                  "endColumn": 10
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.API/Middlewares/SecurityHeadersMiddleware.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 13,
+                  "endLine": 15,
+                  "endColumn": 131
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.API/Program.cs",
+                "region": {
+                  "startLine": 299,
+                  "startColumn": 1,
+                  "endLine": 299,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1050",
+          "level": "note",
+          "message": "Declarar tipos en espacios de nombres",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.API/SwaggerFilters/DevelopmentDocumentFilter.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 14,
+                  "endLine": 10,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S4487",
+          "level": "warning",
+          "message": "Remove this unread private field '_getAllFuncionalidadesUseCase' or refactor the code to use its value.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.API/Controllers/AccesoController.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 55,
+                  "endLine": 15,
+                  "endColumn": 84
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S4487",
+          "level": "warning",
+          "message": "Remove this unread private field '_getAllPermisosUseCase' or refactor the code to use its value.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.API/Controllers/AccesoController.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 48,
+                  "endLine": 16,
+                  "endColumn": 70
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3903",
+          "level": "warning",
+          "message": "Move 'DevelopmentDocumentFilter' into a named namespace.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.API/SwaggerFilters/DevelopmentDocumentFilter.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 14,
+                  "endLine": 10,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6667",
+          "level": "warning",
+          "message": "Logging in a catch clause should pass the caught exception as a parameter.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.API/Middlewares/ExceptionHandlingMiddleware.cs",
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 17,
+                  "endLine": 26,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6667",
+          "level": "warning",
+          "message": "Logging in a catch clause should pass the caught exception as a parameter.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.API/Middlewares/ExceptionHandlingMiddleware.cs",
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 17,
+                  "endLine": 33,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6667",
+          "level": "warning",
+          "message": "Logging in a catch clause should pass the caught exception as a parameter.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.API/Middlewares/ExceptionHandlingMiddleware.cs",
+                "region": {
+                  "startLine": 39,
+                  "startColumn": 17,
+                  "endLine": 39,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6667",
+          "level": "warning",
+          "message": "Logging in a catch clause should pass the caught exception as a parameter.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.API/Middlewares/ExceptionHandlingMiddleware.cs",
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 17,
+                  "endLine": 45,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S927",
+          "level": "warning",
+          "message": "Rename parameter 'doc' to 'swaggerDoc' to match the interface declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.API/SwaggerFilters/DevelopmentDocumentFilter.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 39,
+                  "endLine": 15,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S927",
+          "level": "warning",
+          "message": "Rename parameter 'ctx' to 'context' to match the interface declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.API/SwaggerFilters/DevelopmentDocumentFilter.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 66,
+                  "endLine": 15,
+                  "endColumn": 69
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "ASP0019",
+          "level": "warning",
+          "message": "Use IHeaderDictionary.Append or the indexer to append or set headers. IDictionary.Add will throw an ArgumentException when attempting to add a duplicate key.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.API/Middlewares/SecurityHeadersMiddleware.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 13,
+                  "endLine": 16,
+                  "endColumn": 91
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "ASP0019",
+          "level": "warning",
+          "message": "Use IHeaderDictionary.Append or the indexer to append or set headers. IDictionary.Add will throw an ArgumentException when attempting to add a duplicate key.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.API/Middlewares/SecurityHeadersMiddleware.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 13,
+                  "endLine": 17,
+                  "endColumn": 118
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "ASP0019",
+          "level": "warning",
+          "message": "Use IHeaderDictionary.Append or the indexer to append or set headers. IDictionary.Add will throw an ArgumentException when attempting to add a duplicate key.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.API/Middlewares/SecurityHeadersMiddleware.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 13,
+                  "endLine": 18,
+                  "endColumn": 78
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "ASP0019",
+          "level": "warning",
+          "message": "Use IHeaderDictionary.Append or the indexer to append or set headers. IDictionary.Add will throw an ArgumentException when attempting to add a duplicate key.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.API/Middlewares/SecurityHeadersMiddleware.cs",
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 17,
+                  "endLine": 23,
+                  "endColumn": 72
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "ASP0019",
+          "level": "warning",
+          "message": "Use IHeaderDictionary.Append or the indexer to append or set headers. IDictionary.Add will throw an ArgumentException when attempting to add a duplicate key.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.API/Middlewares/SecurityHeadersMiddleware.cs",
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 13,
+                  "endLine": 25,
+                  "endColumn": 75
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "ASP0019",
+          "level": "warning",
+          "message": "Use IHeaderDictionary.Append or the indexer to append or set headers. IDictionary.Add will throw an ArgumentException when attempting to add a duplicate key.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.API/Middlewares/SecurityHeadersMiddleware.cs",
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 13,
+                  "endLine": 26,
+                  "endColumn": 107
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA2254",
+          "level": "note",
+          "message": "La plantilla de mensaje de registro no debe variar entre las llamadas a \"LoggerExtensions.LogWarning(ILogger, string?, params object?[])\"",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.API/Middlewares/ExceptionHandlingMiddleware.cs",
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 36,
+                  "endLine": 26,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA2254",
+          "level": "note",
+          "message": "La plantilla de mensaje de registro no debe variar entre las llamadas a \"LoggerExtensions.LogWarning(ILogger, string?, params object?[])\"",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.API/Middlewares/ExceptionHandlingMiddleware.cs",
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 36,
+                  "endLine": 33,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA2254",
+          "level": "note",
+          "message": "La plantilla de mensaje de registro no debe variar entre las llamadas a \"LoggerExtensions.LogWarning(ILogger, string?, params object?[])\"",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.API/Middlewares/ExceptionHandlingMiddleware.cs",
+                "region": {
+                  "startLine": 39,
+                  "startColumn": 36,
+                  "endLine": 39,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA2254",
+          "level": "note",
+          "message": "La plantilla de mensaje de registro no debe variar entre las llamadas a \"LoggerExtensions.LogWarning(ILogger, string?, params object?[])\"",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.API/Middlewares/ExceptionHandlingMiddleware.cs",
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 36,
+                  "endLine": 45,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S5122",
+          "level": "warning",
+          "message": "Make sure this permissive CORS policy is safe here.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.API/Program.cs",
+                "region": {
+                  "startLine": 242,
+                  "startColumn": 5,
+                  "endLine": 242,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1825",
+          "level": "note",
+          "message": "Evite las asignaciones de matriz de longitud cero innecesarias.  Use Array.Empty<string>() en su lugar.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.API/Program.cs",
+                "region": {
+                  "startLine": 165,
+                  "startColumn": 13,
+                  "endLine": 165,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1861",
+          "level": "note",
+          "message": "Preferir campos \"static readonly\" frente a argumentos de matriz constantes si se llama repetidamente al método llamado y no muta la matriz pasada",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.API/Program.cs",
+                "region": {
+                  "startLine": 165,
+                  "startColumn": 13,
+                  "endLine": 165,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "paramName": "value"
+            }
+          }
+        },
+        {
+          "ruleId": "S6966",
+          "level": "warning",
+          "message": "Await CanConnectAsync instead.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.API/Program.cs",
+                "region": {
+                  "startLine": 263,
+                  "startColumn": 14,
+                  "endLine": 263,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6966",
+          "level": "warning",
+          "message": "Await RunAsync instead.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.API/Program.cs",
+                "region": {
+                  "startLine": 320,
+                  "startColumn": 1,
+                  "endLine": 320,
+                  "endColumn": 10
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'apikeycl'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.API/Program.cs",
+                "region": {
+                  "startLine": 198,
+                  "startColumn": 5,
+                  "endLine": 198,
+                  "endColumn": 13
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'dbUrl'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.API/Program.cs",
+                "region": {
+                  "startLine": 199,
+                  "startColumn": 5,
+                  "endLine": 199,
+                  "endColumn": 10
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'JwtSecret'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.API/Program.cs",
+                "region": {
+                  "startLine": 200,
+                  "startColumn": 5,
+                  "endLine": 200,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'JwtIssuer'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.API/Program.cs",
+                "region": {
+                  "startLine": 201,
+                  "startColumn": 5,
+                  "endLine": 201,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'JwtAudience'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.API/Program.cs",
+                "region": {
+                  "startLine": 202,
+                  "startColumn": 5,
+                  "endLine": 202,
+                  "endColumn": 16
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'connectionString'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/sawad/Downloads/repositorios_gitlab_dicrep/api_remates_fase1/DICREP.EcommerceSubastas.API/Program.cs",
+                "region": {
+                  "startLine": 210,
+                  "startColumn": 5,
+                  "endLine": 210,
+                  "endColumn": 21
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "ASP0019": {
+          "id": "ASP0019",
+          "shortDescription": "Suggest using IHeaderDictionary.Append or the indexer",
+          "defaultLevel": "warning",
+          "helpUri": "https://aka.ms/aspnet/analyzers",
+          "properties": {
+            "category": "Usage",
+            "isEnabledByDefault": true
+          }
+        },
+        "CA1050": {
+          "id": "CA1050",
+          "shortDescription": "Declarar tipos en espacios de nombres",
+          "fullDescription": "Los tipos se declaran en los espacios de nombres para evitar conflictos de nombre y como forma de organizar los tipos relacionados en una jerarquía de objetos.",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1050",
+          "properties": {
+            "category": "Design",
+            "isEnabledByDefault": true,
+            "tags": [
+              "PortedFromFxCop",
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CA1825": {
+          "id": "CA1825",
+          "shortDescription": "Evite las asignaciones de matriz de longitud cero",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1825",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CA1861": {
+          "id": "CA1861",
+          "shortDescription": "Evitar matrices constantes como argumentos",
+          "fullDescription": "Las matrices constantes pasadas como argumentos no se reutilizan cuando se llaman repetidamente, lo que implica que se cree una nueva matriz cada vez. Considere la posibilidad de extraerlas a campos \"static readonly\" para mejorar el rendimiento si la matriz pasada no se muta dentro del método llamado.",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1861",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CA2254": {
+          "id": "CA2254",
+          "shortDescription": "La plantilla debe ser una expresión estática",
+          "fullDescription": "La plantilla de mensaje de registro no debe variar entre llamadas.",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2254",
+          "properties": {
+            "category": "Usage",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CS8602": {
+          "id": "CS8602",
+          "shortDescription": "Desreferencia de una referencia posiblemente NULL.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8602)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8604": {
+          "id": "CS8604",
+          "shortDescription": "Posible argumento de referencia nulo",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8604)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "S125": {
+          "id": "S125",
+          "shortDescription": "Sections of code should not be commented out",
+          "fullDescription": "Commented-out code distracts the focus from the actual executed code. It creates a noise that increases maintenance code. And because it is never executed, it quickly becomes out of date and invalid.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-125",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1481": {
+          "id": "S1481",
+          "shortDescription": "Unused local variables should be removed",
+          "fullDescription": "An unused local variable is a variable that has been declared but is not used anywhere in the block of code where it is defined. It is dead code, contributing to unnecessary complexity and leading to confusion when reading the code. Therefore, it should be removed from your code to maintain clarity and efficiency.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1481",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3903": {
+          "id": "S3903",
+          "shortDescription": "Types should be defined in named namespaces",
+          "fullDescription": "Types are declared in namespaces in order to prevent name collisions and as a way to organize them into the object hierarchy. Types that are defined outside any named namespace are in a global namespace that cannot be referenced in code.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3903",
+          "properties": {
+            "category": "Major Bug",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S4487": {
+          "id": "S4487",
+          "shortDescription": "Unread \"private\" fields should be removed",
+          "fullDescription": "Private fields which are written but never read are a case of \"dead store\". Changing the value of such a field is useless and most probably indicates an error in the code.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-4487",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S5122": {
+          "id": "S5122",
+          "shortDescription": "Having a permissive Cross-Origin Resource Sharing policy is security-sensitive",
+          "fullDescription": "Having a permissive Cross-Origin Resource Sharing policy is security-sensitive. It has led in the past to the following vulnerabilities:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-5122",
+          "properties": {
+            "category": "Minor Security Hotspot",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S6667": {
+          "id": "S6667",
+          "shortDescription": "Logging in a catch clause should pass the caught exception as a parameter.",
+          "fullDescription": "This rule raises an issue on logging calls inside a catch clause that does not pass the raised Exception.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-6667",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S6966": {
+          "id": "S6966",
+          "shortDescription": "Awaitable method should be used",
+          "fullDescription": "In an async method, any blocking operations should be avoided.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-6966",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S927": {
+          "id": "S927",
+          "shortDescription": "Parameter names should match base declaration and other partial definitions",
+          "fullDescription": "Parameters are part of the method signature and its identity.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-927",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+name: apiremates-qa
+services:
+    apiremates:
+        container_name: apiremates-qa
+        ports:
+            - 5096:5096
+        environment:
+            - ASPNETCORE_ENVIRONMENT=$QA_ASPNETCORE_ENVIRONMENT
+            - ConnectionStrings__DbContext=$QA_ConnectionStrings__DbContext
+            - JwtSettings__Secret=$QA_JwtSettings__Secret
+            - JwtSettings__Issuer=$QA_JwtSettings__Issuer
+            - JwtSettings__Audience=$QA_JwtSettings__Audience
+            - ApiKeyCL=$QA_ApiKeyCL
+            - ExpiryMinutes=$QA_ExpiryMinutes
+            - BaseUrl=$QA_BaseUrl
+            - ApiKeyGoogleCalendar=$QA_ApiKeyGoogleCalendar
+            - RegionalCalendarId=$QA_RegionalCalendarId
+            - ClAuctionApi__Endpoint=$QA_ClAuctionApi__Endpoint
+            - ClAuctionApi__ApiKey=$QA_ClAuctionApi__ApiKey
+            - ClAuctionApi__BearerToken=$QA_ClAuctionApi__BearerToken
+        volumes:
+            - ./opt/ecocircular/qa_data:/app/data
+            - ./var/log/ecocircular/qa:/app/logs 
+        networks:
+            - qa-network
+        deploy:
+            resources:
+                limits:
+                    cpus: 2
+                    memory: 2g
+        image: apiremates-qa:v1
+networks:
+    qa-network:
+        external: true
+        name: qa-network
+

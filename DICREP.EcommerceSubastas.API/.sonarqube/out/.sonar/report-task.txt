@@ -1,0 +1,6 @@
+projectKey=apiremates
+serverUrl=https://qube.tiarica.cl
+serverVersion=25.8.0.112029
+dashboardUrl=https://qube.tiarica.cl/dashboard?id=apiremates
+ceTaskId=10099c3c-b494-4f26-a113-48511d1108ae
+ceTaskUrl=https://qube.tiarica.cl/api/ce/task?id=10099c3c-b494-4f26-a113-48511d1108ae
