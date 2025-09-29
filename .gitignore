@@ -1,0 +1,24 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+
+# VS Code
+.vscode/
+.history/
+
+# Node
+node_modules/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Secretos
+*.env
+secrets.json
+.vs/
+
+# Archivos de configuración con secretos
+appsettings.Development.json
